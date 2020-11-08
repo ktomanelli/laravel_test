@@ -27,7 +27,7 @@ Route::get('about',function(){
     ]);
 });
 
-Route::get('articles/{article}','App\Http\Controllers\ArticlesController@show');
+Route::get('articles/{article}','ArticlesController@show');
 
 
 // Route::get('posts/{post}',function($post){
